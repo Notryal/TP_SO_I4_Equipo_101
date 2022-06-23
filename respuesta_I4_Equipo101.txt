@@ -7,5 +7,5 @@ Amarillo
 C- ¿Qué color de fondo tiene su página en el MASTER?
 Verde
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
-Alfa
+Beta
 
