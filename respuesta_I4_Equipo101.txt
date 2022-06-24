@@ -8,4 +8,34 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
 Verde
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 Beta
+E- Si, los tres tuvimos problemas al intentar hacer push
+F- Utitilando el push normal aparecio el siguiente error:
+----------------------------------------------------------------------------------
+Lucas@LUCASPC MINGW64 /d/UTN/Arquitectura y SO/TP/TP_SO_I4_Equipo_101 (TESTING)
+$ git status
+On branch TESTING
+Your branch and 'origin/TESTING' have diverged,
+and have 1 and 6 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
 
+nothing to commit, working tree clean
+
+Lucas@LUCASPC MINGW64 /d/UTN/Arquitectura y SO/TP/TP_SO_I4_Equipo_101 (TESTING)
+$ git push origin TESTING
+To https://github.com/Notryal/TP_SO_I4_Equipo_101.git
+ ! [rejected]        TESTING -> TESTING (fetch first)
+error: failed to push some refs to 'https://github.com/Notryal/TP_SO_I4_Equipo_101.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+----------------------------------------------------------------------------------
+Marcando que hay diferentes commits en linea y que la rama de diversificó.
+
+G- Una solución que se nos ocurrió es la de hacer el add, el commit y el push uno por uno separados. Pero esto trae como consecuencia el 
+estar atado a la ultima versión que hizo otra persona y tener que actualizar constantemente el repositorio, ademas de que habria que tener casi 
+una perfecta comunicación con los comprañeros de trabajo, algo que consideramos que es complicado.
+H- Cuando hicimos el push -f forzamos el comando y dejó subir el cambio realizado. Pero elimina el cambio realizado anteriormente por los demas compañeros
+I- Trabajariamos como lo vinimos haciendo durante esta interacción 4, que cada integrante modifique el index.html en la rama TESTING y luego 
+actualizariamos el repositorio y hariamos un merge a la branch DESARROLLO
